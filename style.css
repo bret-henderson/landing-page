@@ -42,16 +42,21 @@ ul {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: bold;
     border-style: none;
-    border-radius: 6px;
-    padding: 8px 24px;
+    border-radius: 0.375em;
+    padding: 0.5em 1.5em;
     margin: 0;
     cursor: pointer;
-    box-sizing: content-box;
+    box-sizing: border-box;
+    height: 34px;
+    white-space: nowrap;
 }
 
+.body-3 button {
+    box-shadow: inset 0px 0px 0px 1.5px white;
+}
 button:hover {
     background-color: #F082AC;
 }
@@ -72,7 +77,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    gap: 8px;
+    gap: 1em;
 }
 
 img {
@@ -135,16 +140,18 @@ img {
 .color-box {
     background-color: #3882F6;
     display: flex;
-    align-content: center;
+    /* align-content: center; */
     justify-content: space-between;
+    gap: 24px;
     padding: 64px 128px;
     margin: 128px;
     border-radius: 6px;
 }
 
-.body-3 button {
-    border-style: solid;
-    border-color: #F9FAF8;
-    flex-grow: 0;
-    flex-shrink: 0;
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 3em 0;
 }
