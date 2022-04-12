@@ -9,16 +9,20 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
-    padding: 24px 144px 96px;
+    padding: 1.5rem 9rem 6rem;
+    /* width: 100vw;
+    height: 100vw;
+    background-size: cover;
+    background-position: center, center; */
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 .main-text {
-    font-size: 48px;
+    font-size: 2.5rem;
     font-weight: bolder;
 }
 
@@ -36,7 +40,7 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 16px;
+    gap: 1rem;
 }
 
 button {
@@ -50,7 +54,7 @@ button {
     margin: 0;
     cursor: pointer;
     box-sizing: border-box;
-    height: 34px;
+    height: 2rem;
     white-space: nowrap;
 }
 
@@ -64,7 +68,7 @@ button:hover {
 .header-top {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 6rem;
 }
 
 .header-bottom {
@@ -77,11 +81,11 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    gap: 1em;
+    gap: 1rem;
 }
 
 img {
-    height: 300px;
+    height: 18rem;
 }
 
 .body-1 {
@@ -90,21 +94,21 @@ img {
 }
 
 .title {
-    font-size: 36px;
+    font-size: 2.5rem;
     font-weight: bold;
-    padding: 32px 0;
+    padding: 2rem 0;
 }
 
 .card-container {
     display: flex;
     justify-content: center;
-    gap: 48px;
-    margin-bottom: 128px;
+    gap: 2.5rem;
+    margin-bottom: 8rem;
 }
 
 .card img {
-    height: 160px;
-    width: 160px;
+    height: 10em;
+    width: 10em;
 }
 
 .text {
@@ -114,18 +118,18 @@ img {
 .body-2 {
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 128px 256px;
+    padding: 8rem 16rem;
 }
 
 .quote {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-style: italic;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
 }
 
 .quotee {
     text-align: end;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -134,18 +138,17 @@ img {
 }
 
 .body-3 .main-text {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .color-box {
     background-color: #3882F6;
     display: flex;
-    /* align-content: center; */
     justify-content: space-between;
-    gap: 24px;
-    padding: 64px 128px;
-    margin: 128px;
-    border-radius: 6px;
+    gap: 1.5rem;
+    padding: 4rem 8rem;
+    margin: 8rem;
+    border-radius: .375rem;
 }
 
 footer {
@@ -153,5 +156,5 @@ footer {
     color: #F9FAF8;
     display: flex;
     justify-content: center;
-    padding: 3em 0;
+    padding: 3rem 0;
 }
