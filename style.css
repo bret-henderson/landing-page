@@ -1,0 +1,160 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding: 1.5rem 9rem 6rem;
+    /* width: 100vw;
+    height: 100vw;
+    background-size: cover;
+    background-position: center, center; */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.main-text {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.subtext {
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 1em;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 0.375em;
+    padding: 0.5em 1.5em;
+    margin: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 2rem;
+    white-space: nowrap;
+}
+
+.body-3 button {
+    box-shadow: inset 0px 0px 0px 1.5px white;
+}
+button:hover {
+    background-color: #F082AC;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+img {
+    height: 18rem;
+}
+
+.body-1 {
+    text-align: center;
+    color: #1F2937;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-bottom: 8rem;
+}
+
+.card img {
+    height: 10em;
+    width: 10em;
+}
+
+.text {
+    max-width: fit-content;
+}
+
+.body-2 {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 8rem 16rem;
+}
+
+.quote {
+    font-size: 2.25rem;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.quotee {
+    text-align: end;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.body-3 {
+    color: #F9FAF8;
+}
+
+.body-3 .main-text {
+    font-size: 1.5rem;
+}
+
+.color-box {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 4rem 8rem;
+    margin: 8rem;
+    border-radius: .375rem;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
